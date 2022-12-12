@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostraIdade(nome,idade){
+        document.write(nome + " tem " + idade + "anos.");
+        pulaLinha();
+    }
+
+    var ano = 2016;
+
+    var idadeFlavio = ano - 1977;
+    var idadeJoaquim = ano - 1996;
+    var idadeBarney = ano - 1976;
+
+    mostraIdade("Flávio", idadeFlavio);
+    mostraIdade("Joaquim", idadeJoaquim);
+    mostraIdade("Barney", idadeBarney);
+
+    var media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+
+    document.write("A média das idades é  " + Math.round(media)+".");
+
+</script>

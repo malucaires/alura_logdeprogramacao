@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+
+<script type="text/javascript">
+	
+	function pulaLinha(){
+		document.write("<br>");
+	}
+
+	function escreve(frase){
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var numero = Math.round(Math.random()*10);
+
+	var tentativaAtual = 1;
+    var tentativaTotal = 3;
+
+    while (tentativaAtual <= tentativaTotal) {
+		var numeroPensado = parseInt(prompt("Digite um número: "));
+		
+		if (numero == numeroPensado){
+			alert("Você pensou o número correto.");
+			break;
+		} else {
+			if (tentativaAtual == tentativaTotal) {
+				alert("Você errou! O número correto é: " + numero);
+			} else {
+				alert("Você errou. Tente novamente.");
+			}
+		}
+		tentativaAtual++;
+	}
+
+</script>
