@@ -7,3 +7,5 @@
 - [Aula 02] Curso de HTML5 e CSS3: Parte 1 - Crie uma página da Web.
 
 - [Aula 03] Curso de HTML5 e CSS3: Parte 2 - Posicionamento, listas e navegação.
+
+- [Aula 04] Curso de HTML5 e CSS3: Parte 3 - Trabalhando com formulários e tabelas.
