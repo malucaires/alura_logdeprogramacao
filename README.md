@@ -1,4 +1,4 @@
-# Alura - Lógica de Programação
+# ONE - Lógica de Programação e Página WEB
 
 - [Aula 00] Curso de Javascript e HTML - Desenvolva um jogo e pratique lógica de programação.
 
